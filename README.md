@@ -49,6 +49,23 @@ False resut
 ![img](https://firebasestorage.googleapis.com/v0/b/f22f-3c23f.appspot.com/o/DotNet%2Fch2-4.PNG?alt=media&token=e2481284-c03c-474d-9348-893116546dad)
 
 
+------
+## Problem 3: Perfect Sequence
+---
+
+Instructions of Challenge
+---
+
+1. you should enter non-negative numbers  
+
+
+-----
+
+Screen capture of successful output :-
+
+![img](https://firebasestorage.googleapis.com/v0/b/f22f-3c23f.appspot.com/o/DotNet%2Fch3-1.PNG?alt=media&token=212fc126-cfb3-4496-8947-df87c971d0dd)
+![img](https://firebasestorage.googleapis.com/v0/b/f22f-3c23f.appspot.com/o/DotNet%2Fch3-2.PNG?alt=media&token=0962fae4-345d-4772-9ee0-76204bac0070)
+-------
 
 
 
