@@ -40,7 +40,8 @@ namespace Program
 
         }
 
-        public static void LeapYearCalculator(int x) {
+        public static void LeapYearCalculator(int x)
+        {
 
 
 
@@ -63,27 +64,29 @@ namespace Program
 
 
             }
-            else {
+            else
+            {
                 Console.WriteLine(x + " is NOT a leap year, because this year is NOT divisible by 4");
             }
-        
+
 
         }
 
-        public static void PerfectArray(int[] arr  ) {
+        public static void PerfectArray(int[] arr)
+        {
 
             int sum = 0, mul = 1;
 
-         
+
             foreach (int num in arr)
             {
-           
+
                 sum += num;
-                mul *= num;  
-              
-                Console.WriteLine("sum = " +sum);
-                Console.WriteLine("mul = " +mul);
-                Console.WriteLine("number = "  +num);
+                mul *= num;
+
+                Console.WriteLine("sum = " + sum);
+                Console.WriteLine("mul = " + mul);
+                Console.WriteLine("number = " + num);
                 Console.WriteLine("//////////////////////");
 
 
@@ -100,7 +103,13 @@ namespace Program
 
         }
 
-        static void Main(string[] args)
+
+        public static void TwoArray(int[,] arr){
+        
+        
+        }
+
+            static void Main(string[] args)
         {
             /*
            Console.WriteLine("Problem 1: Array Max Result");
@@ -124,7 +133,7 @@ namespace Program
 
             //////////////////////////////////////////////////////
 
-            */
+           
 
             Console.WriteLine(" ");
             Console.WriteLine("==========================");
@@ -140,27 +149,65 @@ namespace Program
 
                 arr[i] = Convert.ToInt32(Console.ReadLine());
             }
-           /* 
-              int count=0;
-             string flag = "y";
-            while (flag == "y" || flag == "Y")
-            {
-                Console.WriteLine("Enter the number");
-          
-                arr[count]= Convert.ToInt32(Console.ReadLine());
+            /* 
+               int count=0;
+              string flag = "y";
+             while (flag == "y" || flag == "Y")
+             {
+                 Console.WriteLine("Enter the number");
 
-                count++;
+                 arr[count]= Convert.ToInt32(Console.ReadLine());
 
-                Console.WriteLine("if you wont to add more press y else press any key");
-                flag = Console.ReadLine();
-            }
+                 count++;
+
+                 Console.WriteLine("if you wont to add more press y else press any key");
+                 flag = Console.ReadLine();
+             }
 
             */
-            PerfectArray(arr);
+            // PerfectArray(arr);
+            //////////////////////////////////////////////////////////////////
 
 
+            Console.WriteLine(" ");
+            Console.WriteLine("==========================");
+            Console.WriteLine("Problem 4: Sum of Rows");
+
+            int m = 0, n = 0;
+
+            Console.WriteLine("Enter the rows number");
+            m = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("Enter the columns number");
+            n = Convert.ToInt32(Console.ReadLine());
+
+            int[,] arr2 = new int[m, n];
+            int[] arr3 = new int[m];
+            for (int i = 0; i < m; i++)
+            {
+
+                for (int j = 0; j < n; j++)
+                {
+                    Console.WriteLine("Enter the number in row " +i);
+
+                    arr2[i, j] = Convert.ToInt32(Console.ReadLine());
+                }
 
 
+            }
+
+            for (int i = 0; i < m; i++)
+            {
+
+                for (int j = 0; j < n; j++)
+                {
+
+                    arr3[i] += arr2[i,j];
+                        }
+
+                Console.Write(arr3[i]+ "  " );
+            }
+
+            //TwoArray(arr2);
         }
     }
 }
