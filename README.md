@@ -69,6 +69,25 @@ Screen capture of successful output :-
 
 
 
+------
+## Problem 4: Sum of Rows
+---
+
+Instructions of Challenge
+---
+
+1. you should enter  numbers for all field
+2. you should enter the rows columns for matrex  
+
+
+-----
+
+Screen capture of successful output :-
+
+![img](https://firebasestorage.googleapis.com/v0/b/f22f-3c23f.appspot.com/o/DotNet%2Fch4.PNG?alt=media&token=cc4e64c7-7b39-4824-8141-f0aec554bb9c)
+-------
+
+
 
 
 
