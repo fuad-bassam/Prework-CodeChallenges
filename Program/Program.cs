@@ -14,24 +14,28 @@ namespace Program
             for (int i = 0; i < 5; i++)
             {
                 Console.WriteLine("Enter Number 1 ~ 10");
-               
-                   
+
+
                 arr[i] = Convert.ToInt32(Console.ReadLine());
             }
 
             return arr;
-            
+
+
         }
 
-        public static int MaxArr(int[] numArr ,int sNum)
+        public static int MaxArr(int[] numArr, int sNum)
+
+           
         {
             int x = 0;
 
             foreach (int s in numArr)
             {
-                if (s== sNum)
+
+                if (s == sNum)
                 {
-                    x +=s;
+                    x += s;
                 }
 
             }
@@ -47,11 +51,12 @@ namespace Program
 
             int[] a = CreatArr();
             Console.Write("Enter Number that you wont to search for :- ");
-           int x= Convert.ToInt32(Console.ReadLine());
-           
-           
+            int x = Convert.ToInt32(Console.ReadLine());
 
-            Console.WriteLine( MaxArr(a,x));
+
+
+            Console.WriteLine(MaxArr(a, x));
+
         }
     }
 }
