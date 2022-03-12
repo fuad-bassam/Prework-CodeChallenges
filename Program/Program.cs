@@ -21,14 +21,18 @@ namespace Program
 
             return arr;
 
+
         }
 
         public static int MaxArr(int[] numArr, int sNum)
+
+           
         {
             int x = 0;
 
             foreach (int s in numArr)
             {
+
                 if (s == sNum)
                 {
                     x += s;
@@ -52,6 +56,7 @@ namespace Program
 
 
             Console.WriteLine(MaxArr(a, x));
+
         }
     }
 }
